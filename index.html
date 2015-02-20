@@ -11,6 +11,21 @@
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    
+    <script type ="text/javascript">
+
+var obj1 = {user: "John", age: 22, country: "USA" };
+var obj2 = {user: "Will", age: 29, country: "UK" };
+var obj3 = {user: "Hector", age: 32, country: "ESP" };
+var obj4 = {u1:obj1, u2:obj2, u3:obj3};
+document.write(obj3.user+" is "+obj3.age+" years old and lives in "+obj3.country);
+
+obj3.country= "Italy";
+
+document.write("<hr />");
+document.write(obj3.user+" is "+obj3.age+" years old and lives in "+obj3.country);
+
+</script>
   </head>
   <body>
     <div class="wrapper">
